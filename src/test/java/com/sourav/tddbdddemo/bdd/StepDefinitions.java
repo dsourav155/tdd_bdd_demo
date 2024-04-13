@@ -20,6 +20,13 @@ public class StepDefinitions {
 		}
     }
     
+    @Given("I love programming in {string} rather than {string}")
+    public void iLoveXOverY(String lang1, String lang2) {
+    	System.out.println("I like " + lang1 + " over " + lang2);
+    }
+    
+    
+    
     
 
 }
